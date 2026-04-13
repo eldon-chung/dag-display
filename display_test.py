@@ -128,7 +128,7 @@ def display(nodeid_to_coord : dict[int, Coord], adj_list : list[list[int]]):
     plt.show()
 
 if __name__ == "__main__":
-    with open("graph1.json", "r") as f:
+    with open("graph3.json", "r") as f:
         data = json.load(f)
 
     print(data)
